@@ -47,10 +47,6 @@ function CreateVC() {
 
       const response = await fetch('http://localhost:3001/get-data', {
         method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-
       })
       const data = await response.json();
       setvcMessage(data);
