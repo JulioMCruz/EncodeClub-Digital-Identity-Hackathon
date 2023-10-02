@@ -11,10 +11,14 @@ app.use(express.json());
 
 const postvcDataRoute = require('./src/routes/postvcData');
 const getvcDataRoute = require('./src/routes/getvcData');
+const signvcDataRoute = require('./src/routes/signvcData');
+
+const createvpDataRoute = require('./src/routes/createvpData');
 
 app.use('/post-data', postvcDataRoute);
 app.use('/get-data', getvcDataRoute);
-
+app.use('/sign-vcdata', signvcDataRoute);
+app.use('/create-vpdata', createvpDataRoute);
 
 
 app.listen(PORT, () => {

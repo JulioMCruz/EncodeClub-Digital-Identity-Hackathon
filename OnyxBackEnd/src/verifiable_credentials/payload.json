@@ -1,0 +1,28 @@
+{
+    "exp": 1727837396,
+    "vc": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "PROOF_OF_ADDRESS"
+      ],
+      "credentialSubject": {
+        "name": "hello",
+        "address": "hello",
+        "city": "hello",
+        "state": "hello",
+        "country": "hello",
+        "zip": "hello"
+      },
+      "credentialSchema": {
+        "id": "https://raw.githubusercontent.com/jpmorganchase/onyx-ssi-sdk/main/src/services/common/schemas/definitions/proofOfAddress.json",
+        "type": "JsonSchemaValidator2018"
+      }
+    },
+    "sub": "did:ethr:maticnum:0x62F68c8265288E0D4c64C84BF9bf01FCeC5e0B47",
+    "jti": "did:ethr:maticnum:0xe2a49E3c315d7F3FF102D4835b7e1A975D543efc",
+    "nbf": 1696214996,
+    "iss": "did:ethr:maticnum:0xDfe761E51834FB2534Be8E20A4A0dD1C6b6A0428"
+  }

@@ -9,6 +9,9 @@
   "scripts": {
     "start": "node server.js",
     "create:vc:with:additional:params": "ts-node ./src/scripts/CreateVC.ts",
+    "sign:vc": "ts-node ./src/scripts/SignVC.ts",
+    "create:vp:with:additional:params": "ts-node ./src/scripts/CreateVP.ts",
+    "sign:vp": "ts-node ./src/scripts/SignVP.ts",
     "dev": "nodemon server.js"
   }
 }

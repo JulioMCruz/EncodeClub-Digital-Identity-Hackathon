@@ -5,7 +5,7 @@ const fs = require('fs');
 
 router.post('/', (req, res) => {
   const data = req.body;
-  const filePath = path.join(__dirname, "../src/data/userData.json");
+  const filePath = path.join(__dirname, "./../data/userData.json");
   
   fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8', (err) => {
       if (err) {
