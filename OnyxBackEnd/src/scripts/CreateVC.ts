@@ -16,8 +16,10 @@ import {
     VC_DIR_PATH,
     VC_SCHEMA_URL,
   } from "../../config";
-  import { privateKeyBufferFromString } from "./../utils/convertions";
-  import { writeToFile } from "./../utils/writer";
+  import { privateKeyBufferFromString } from "../utils/convertions";
+  import { writeToFile } from "../utils/writer";
+
+  import userData from "./../data/userData.json";
   
   // add ethers library
   const ethers = require('ethers');
@@ -55,15 +57,9 @@ import {
   
     const credentialType = "PROOF_OF_ADDRESS";
   
-    const subjectData: Object = {
-      name: "JP Morgan Hackathon",
-      address: "JP Morgan Building",
-      city: "New York",
-      state: "New York",
-      country: "USA",
-      zip: "NY 10011",
-    };
-  
+    const subjectData = userData;
+
+
     //Setting an expiration data parameter for the VC
     const oneYearFromNow = new Date();
     oneYearFromNow.setFullYear(new Date().getFullYear() + 1);

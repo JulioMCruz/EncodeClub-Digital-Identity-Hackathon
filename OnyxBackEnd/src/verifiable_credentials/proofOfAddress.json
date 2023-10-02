@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "credentialSubject": {
+    "id": "did:ethr:maticnum:0x62F68c8265288E0D4c64C84BF9bf01FCeC5e0B47",
+    "name": "test",
+    "address": "test",
+    "city": "test",
+    "state": "test",
+    "country": "test",
+    "zip": "test"
+  },
+  "issuer": {
+    "id": "did:ethr:maticnum:0xDfe761E51834FB2534Be8E20A4A0dD1C6b6A0428"
+  },
+  "type": [
+    "VerifiableCredential",
+    "PROOF_OF_ADDRESS"
+  ],
+  "issuanceDate": "2023-10-02T01:41:13.000Z",
+  "credentialSchema": {
+    "id": "https://raw.githubusercontent.com/jpmorganchase/onyx-ssi-sdk/main/src/services/common/schemas/definitions/proofOfAddress.json",
+    "type": "JsonSchemaValidator2018"
+  },
+  "id": "did:ethr:maticnum:0x1F37F59d7dA0b82aA062FCb75A27DD8Fb2f524C2",
+  "expirationDate": "2024-10-02T01:41:13.492Z"
+}
