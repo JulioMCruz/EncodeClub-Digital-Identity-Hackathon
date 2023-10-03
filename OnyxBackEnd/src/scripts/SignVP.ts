@@ -38,7 +38,7 @@ const signVp = async () => {
       );
 
       if (didWithKeys.did === vp.holder) {
-        console.log("\nSinging the VP\n");
+        console.log("\Signing the VP\n");
 
         const signedVp = await signVP(didWithKeys, vp);
         console.log(signedVp);

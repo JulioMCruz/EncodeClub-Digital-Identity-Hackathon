@@ -13,12 +13,14 @@ const postvcDataRoute = require('./src/routes/postvcData');
 const getvcDataRoute = require('./src/routes/getvcData');
 const signvcDataRoute = require('./src/routes/signvcData');
 
-const createvpDataRoute = require('./src/routes/createvpData');
+const createVPDataRoute = require('./src/routes/createVPData');
+const signVPDataRoute = require('./src/routes/signVPData');
 
 app.use('/post-data', postvcDataRoute);
 app.use('/get-data', getvcDataRoute);
 app.use('/sign-vcdata', signvcDataRoute);
-app.use('/create-vpdata', createvpDataRoute);
+app.use('/create-vpdata', createVPDataRoute);
+app.use('/sign-vpdata', signVPDataRoute);
 
 
 app.listen(PORT, () => {

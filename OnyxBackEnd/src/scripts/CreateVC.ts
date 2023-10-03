@@ -16,6 +16,7 @@ import {
     VC_DIR_PATH,
     VC_SCHEMA_URL,
   } from "../../config";
+  
   import { privateKeyBufferFromString } from "../utils/convertions";
   import { writeToFile } from "../utils/writer";
 
@@ -99,7 +100,7 @@ import {
   
       console.log(JSON.stringify(vc, null, 2));
   
-        // added for splitting signature
+        // added for splitting signature if there is a signature.
         if (vc.proof && vc.proof.signature) {
           const { v, r, s } = ethers.utils.splitSignature(vc.proof.signature);
           console.log('V:', v);
