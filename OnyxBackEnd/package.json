@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+      "@jpmorganchase/onyx-ssi-sdk": "^0.0.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "ts-node": "^10.9.1"
+    },
+    "scripts": {
+      "start": "node server.js",
+      "create:vc:with:additional:params": "ts-node ./src/scripts/CreateVC.ts",
+      "sign:vc": "ts-node ./src/scripts/SignVC.ts",
+      "create:vp:with:additional:params": "ts-node ./src/scripts/CreateVP.ts",
+      "sign:vp": "ts-node ./src/scripts/SignVP.ts",
+      "dev": "nodemon server.js"
+    }
+  }
