@@ -4,12 +4,12 @@
   ],
   "credentialSubject": {
     "id": "did:ethr:maticnum:0x62F68c8265288E0D4c64C84BF9bf01FCeC5e0B47",
-    "name": "test",
-    "address": "test",
-    "city": "test",
-    "state": "2",
-    "country": "test",
-    "zip": "test"
+    "name": "tony",
+    "address": "sdf",
+    "city": "tst",
+    "state": "tstt",
+    "country": "Canada",
+    "zip": "1231"
   },
   "issuer": {
     "id": "did:ethr:maticnum:0x7E4C14E35399d582859E2304F7E3163955A441b9"
@@ -18,11 +18,11 @@
     "VerifiableCredential",
     "PROOF_OF_ADDRESS"
   ],
-  "issuanceDate": "2023-10-03T20:11:57.000Z",
+  "issuanceDate": "2023-10-04T02:32:09.000Z",
   "credentialSchema": {
     "id": "https://raw.githubusercontent.com/jpmorganchase/onyx-ssi-sdk/main/src/services/common/schemas/definitions/proofOfAddress.json",
     "type": "JsonSchemaValidator2018"
   },
-  "id": "did:ethr:maticnum:0x1882a5b515439a06961c10B72AAa099d96FB470F",
-  "expirationDate": "2024-10-03T20:11:57.201Z"
+  "id": "did:ethr:maticnum:0xbbD21CB47C5c2de16CAB82E7Be808f1340898eF0",
+  "expirationDate": "2024-10-04T02:32:08.961Z"
 }
