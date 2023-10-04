@@ -1,8 +1,8 @@
 {
-  "name": "hi",
-  "address": "hi",
-  "city": "hi",
-  "state": "hi",
-  "country": "hi",
-  "zip": "hi"
+  "name": "test",
+  "address": "test",
+  "city": "test",
+  "state": "2",
+  "country": "test",
+  "zip": "test"
 }
